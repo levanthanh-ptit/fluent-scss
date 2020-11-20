@@ -1,0 +1,19 @@
+{
+  "name": "fluent-scss",
+  "version": "1.0.0",
+  "description": "Scss package of Fluent Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levanthanh-ptit/fluent-scss.git"
+  },
+  "author": "levanthanh.ptit@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levanthanh-ptit/fluent-scss/issues"
+  },
+  "homepage": "https://github.com/levanthanh-ptit/fluent-scss#readme"
+}
