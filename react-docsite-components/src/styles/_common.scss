@@ -1,4 +1,4 @@
-@import '~@fluentui/common-styles/src/common';
+@import "../../../common-styles/src/common";
 
 // Padding matches padding used by UHF at the same (lg / sm) UHF breakpoints
 $App-padding-left-lg: 32px;
@@ -27,8 +27,10 @@ $SideRail-width: 182px + $SideRail-padding-left;
 $CodeBlock-toggleButtonHeight: 28px;
 
 // Left padding + Nav + Body and Content Padding + Content + SideRail + Right padding.
-$App-maximumWidth-sm: $App-padding-left-lg + $Nav-width-sm + $App-padding-md + $content-padding*2 + $content-width + $SideRail-width + $App-padding-right-lg;
-$App-maximumWidth-lg: $App-padding-left-lg + $Nav-width-lg + $App-padding-md + $content-padding*2 + $content-width + $SideRail-width + $App-padding-right-lg;
+$App-maximumWidth-sm: $App-padding-left-lg + $Nav-width-sm + $App-padding-md + $content-padding * 2 + $content-width +
+  $SideRail-width + $App-padding-right-lg;
+$App-maximumWidth-lg: $App-padding-left-lg + $Nav-width-lg + $App-padding-md + $content-padding * 2 + $content-width +
+  $SideRail-width + $App-padding-right-lg;
 
 // Extended type ramp
 $font-size-bigger: 36px;

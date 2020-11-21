@@ -1,6 +1,6 @@
-@import '~@fluentui/common-styles/src/themeCssVariables';
-@import '~@fluentui/common-styles/src/highContrast';
-@import '~@fluentui/common-styles/src/focusBorder';
+@import "../../../common-styles/src/themeCssVariables";
+@import "../../../common-styles/src/highContrast";
+@import "../../../common-styles/src/focusBorder";
 
 $checkboxSize: 20px;
 $checkboxTransitionDuration: 200ms;
@@ -128,7 +128,7 @@ $checkboxTransitionTiming: cubic-bezier(0.4, 0, 0.23, 1);
     right: 0;
     top: 0;
     bottom: 0;
-    content: '';
+    content: "";
     pointer-events: none;
   }
 
@@ -177,7 +177,7 @@ $checkboxTransitionTiming: cubic-bezier(0.4, 0, 0.23, 1);
     }
 
     &::after {
-      content: '';
+      content: "";
       border-radius: var($effectsRoundedCorner2);
       position: absolute;
       width: 10px;

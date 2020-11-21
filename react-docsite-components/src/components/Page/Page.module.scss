@@ -1,5 +1,5 @@
-@import '../../styles/common';
-@import '~@fluentui/common-styles/src/themeOverrides';
+@import "../../styles/common";
+@import "../../../../common-styles/src/themeOverrides";
 
 $PageSubHeadMargin: 20px;
 $PageParagraphMargin: 1.2em;
@@ -57,7 +57,7 @@ $usageListPadding: 24px;
     background: linear-gradient(to right, white, rgba(white, 0)) left / 48px 100% local,
       linear-gradient(to left, white, rgba(white, 0)) right / 48px 100% local,
       // This is $ms-color-neutralLight but the rgba() function wasn't handling the variable
-        linear-gradient(to right, #edebe9, rgba(#edebe9, 0)) left / 12px 100% scroll,
+      linear-gradient(to right, #edebe9, rgba(#edebe9, 0)) left / 12px 100% scroll,
       linear-gradient(to left, #edebe9, rgba(#edebe9, 0)) right / 12px 100% scroll;
     background-repeat: no-repeat;
   }
@@ -169,7 +169,7 @@ $usageListPadding: 24px;
   margin: -1px;
   padding: 0;
   border: 0;
-  overflow: 'hidden';
+  overflow: "hidden";
 }
 
 .subHeading,
@@ -332,7 +332,7 @@ $usageListPadding: 24px;
       position: relative;
 
       &:before {
-        content: '';
+        content: "";
         font-family: FabricMDL2Icons;
         display: block;
         position: absolute;
@@ -351,14 +351,14 @@ $usageListPadding: 24px;
 
 .doList {
   ul > li:before {
-    content: '\E8FB'; // 'Accept' fabric icon
+    content: "\E8FB"; // 'Accept' fabric icon
     color: $ms-color-green;
   }
 }
 
 .dontList {
   ul > li:before {
-    content: '\E711'; // 'Cancel' fabric icon
+    content: "\E711"; // 'Cancel' fabric icon
     color: $ms-color-red;
   }
 }
