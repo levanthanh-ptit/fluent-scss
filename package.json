@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/levanthanh-ptit/fluent-scss/issues"
   },
-  "homepage": "https://github.com/levanthanh-ptit/fluent-scss#readme"
+  "homepage": "https://github.com/levanthanh-ptit/fluent-scss#readme",
+  "dependencies": {
+    "@fluentui/react": "^7.152.1"
+  }
 }
